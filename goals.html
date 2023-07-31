@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<style>
+/* this page is built with w3school tamplets */
+/* this page is built with w3school tamplets */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: #148F77 ;
+}
+
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<form>
+  <div class="container">
+    <h1 style="text-align: center;">Personal Goals</h1>
+    <form action="/action_page.php">
+        <label for="cars">I want to</label>
+        <select name="cars" id="cars">
+          <option value="volvo">Lose Weight</option>
+          <option value="saab">Gain Weight</option>
+          <option value="opel">Stay Fit</option>
+ 
+        </select>
+        <br><br>
+        
+      </form>
+    <hr>
+    
+    <div style="margin-top: 20px; margin-bottom: 20px;">
+        <form>
+            <label for="fname">Enter Your Current Weight(KG):</label>
+            <input style="margin-left: 25%; margin-top: 8%;" type="text" id="fname" name="fname">
+            <br><br>
+            <hr>
+            <label for="lname">Enter Your Goal Weight(KG): </label>
+            <input style="margin-left: 25%; margin-top: 8%;" type="text" id="lname" name="lname"> 
+            <br><br>
+            
+          </form>
+      </div>
+              
+    <hr>
+
+    
+    
+    <div style="margin-top: 20px; margin-bottom: 20px;">
+        <form action="/action_page.php">
+            <label for="cars">Duration: </label>
+            <select name="cars" id="cars">
+              <option value="volvo">2 weeks</option>
+              <option value="saab">1 Month</option>
+              <option value="opel">3 Months</option>
+              <option value="opel">6 Months</option>
+              <option value="opel">1 year</option>
+              
+            </select>
+            <br><br>
+            
+          </form>
+      </div>
+ 
+
+    <hr style="margin-top: 45%;">
+    
+    
+    <a href="medical-info.html" class="previous">&laquo; Previous</a>
+    <a href="Home.html" class="next">Ready &raquo;</a>
+  </div>
+  
+ 
+</form>
+
+
+</body>
+</html>
